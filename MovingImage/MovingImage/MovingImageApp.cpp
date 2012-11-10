@@ -33,6 +33,8 @@ MovingImageApp::MovingImageApp() {
 	control->addSliderI("goto frame", 0, 36, this);
 	
 	addChild(control);
+	
+	addEvent(PO_KEY_DOWN_EVENT, this);
 }
 
 // APP DESTRUCTOR. Delete all objects here.
@@ -52,6 +54,13 @@ void MovingImageApp::draw() {
 // EVENT HANDLER. Called when events happen. Respond to events here.
 void MovingImageApp::eventHandler(poEvent *event) {
 	
+	// because we all love pressing space bar to mean play/pause
+	if( event->type == PO_KEY_DOWN_EVENT && event->keyChar == ' '){
+		if(sprite->isPlaying())
+			sprite->pause();
+		else
+			sprite->play();
+	}
 }
 
 // MESSAGE HANDLER. Called from within the app. Use for message passing.
