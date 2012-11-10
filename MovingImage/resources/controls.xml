@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<item name="root" type="6">
+	<item name="controls" type="3">point(360,3.05176e-05,0)</item>
+	<item name="framerate" type="0">30</item>
+	<item name="goto frame" type="0">0</item>
+	<item name="loop" type="0">1</item>
+</item>

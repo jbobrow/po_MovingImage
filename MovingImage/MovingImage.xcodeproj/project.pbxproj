@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B78BB00164824AE006758EA /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B78BAFF164824AE006758EA /* AppDelegate.mm */; };
+		2B78BB02164824AE006758EA /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B78BB01164824AE006758EA /* en.strings */; };
+		2B78BB04164824AE006758EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78BB03164824AE006758EA /* main.m */; };
+		2B78BB06164824AE006758EA /* main.pch in Resources */ = {isa = PBXBuildFile; fileRef = 2B78BB05164824AE006758EA /* main.pch */; };
+		2B78BB09164824AF006758EA /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B78BB08164824AF006758EA /* main.xib */; };
+		2B78BB0C164824AF006758EA /* poOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B78BB0B164824AF006758EA /* poOpenGLView.mm */; };
+		2B78BB10164824AF006758EA /* MovingImageApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B78BB0F164824AF006758EA /* MovingImageApp.cpp */; };
+		2B78BB12164824AF006758EA /* AppConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B78BB11164824AF006758EA /* AppConfig.cpp */; };
+		2B78BB14164824AF006758EA /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78BB13164824AF006758EA /* OpenSans-Regular.ttf */; };
+		2B78BB1C164991C4006758EA /* MovingImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B78BB1A164991C4006758EA /* MovingImage.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B78BAF7164824AE006758EA /* MovingImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovingImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B78BAFC164824AE006758EA /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = ../platform/Debug.xcconfig; sourceTree = "<group>"; };
+		2B78BAFD164824AE006758EA /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = ../platform/Release.xcconfig; sourceTree = "<group>"; };
+		2B78BAFE164824AE006758EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../platform/AppDelegate.h; sourceTree = "<group>"; };
+		2B78BAFF164824AE006758EA /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ../platform/AppDelegate.mm; sourceTree = "<group>"; };
+		2B78BB01164824AE006758EA /* en.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en.strings; path = ../platform/en.strings; sourceTree = "<group>"; };
+		2B78BB03164824AE006758EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../platform/main.m; sourceTree = "<group>"; };
+		2B78BB05164824AE006758EA /* main.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.pch; path = ../platform/main.pch; sourceTree = "<group>"; };
+		2B78BB07164824AE006758EA /* main.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = main.plist; path = ../platform/main.plist; sourceTree = "<group>"; };
+		2B78BB08164824AF006758EA /* main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = main.xib; path = ../platform/main.xib; sourceTree = "<group>"; };
+		2B78BB0A164824AF006758EA /* poOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = poOpenGLView.h; path = ../platform/poOpenGLView.h; sourceTree = "<group>"; };
+		2B78BB0B164824AF006758EA /* poOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = poOpenGLView.mm; path = ../platform/poOpenGLView.mm; sourceTree = "<group>"; };
+		2B78BB0E164824AF006758EA /* MovingImageApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovingImageApp.h; sourceTree = "<group>"; };
+		2B78BB0F164824AF006758EA /* MovingImageApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MovingImageApp.cpp; sourceTree = "<group>"; };
+		2B78BB11164824AF006758EA /* AppConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppConfig.cpp; sourceTree = "<group>"; };
+		2B78BB13164824AF006758EA /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../platform/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		2B78BB1A164991C4006758EA /* MovingImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MovingImage.cpp; sourceTree = "<group>"; };
+		2B78BB1B164991C4006758EA /* MovingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingImage.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B78BAF4164824AE006758EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B78BAEC164824AE006758EA = {
+			isa = PBXGroup;
+			children = (
+				2B78BAFA164824AE006758EA /* MovingImage */,
+				2B78BAF8164824AE006758EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B78BAF8164824AE006758EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B78BAF7164824AE006758EA /* MovingImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B78BAFA164824AE006758EA /* MovingImage */ = {
+			isa = PBXGroup;
+			children = (
+				2B78BAFB164824AE006758EA /* platform */,
+				2B78BB0D164824AF006758EA /* application */,
+			);
+			path = MovingImage;
+			sourceTree = "<group>";
+		};
+		2B78BAFB164824AE006758EA /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				2B78BAFC164824AE006758EA /* Debug.xcconfig */,
+				2B78BAFD164824AE006758EA /* Release.xcconfig */,
+				2B78BAFE164824AE006758EA /* AppDelegate.h */,
+				2B78BAFF164824AE006758EA /* AppDelegate.mm */,
+				2B78BB01164824AE006758EA /* en.strings */,
+				2B78BB03164824AE006758EA /* main.m */,
+				2B78BB05164824AE006758EA /* main.pch */,
+				2B78BB07164824AE006758EA /* main.plist */,
+				2B78BB08164824AF006758EA /* main.xib */,
+				2B78BB0A164824AF006758EA /* poOpenGLView.h */,
+				2B78BB0B164824AF006758EA /* poOpenGLView.mm */,
+				2B78BB13164824AF006758EA /* OpenSans-Regular.ttf */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		2B78BB0D164824AF006758EA /* application */ = {
+			isa = PBXGroup;
+			children = (
+				2B78BB1B164991C4006758EA /* MovingImage.h */,
+				2B78BB1A164991C4006758EA /* MovingImage.cpp */,
+				2B78BB0E164824AF006758EA /* MovingImageApp.h */,
+				2B78BB0F164824AF006758EA /* MovingImageApp.cpp */,
+				2B78BB11164824AF006758EA /* AppConfig.cpp */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B78BAF6164824AE006758EA /* MovingImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B78BB17164824AF006758EA /* Build configuration list for PBXNativeTarget "MovingImage" */;
+			buildPhases = (
+				2B78BAF3164824AE006758EA /* Sources */,
+				2B78BAF4164824AE006758EA /* Frameworks */,
+				2B78BAF5164824AE006758EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovingImage;
+			productName = MovingImage;
+			productReference = 2B78BAF7164824AE006758EA /* MovingImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B78BAEE164824AE006758EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 2B78BAF1164824AE006758EA /* Build configuration list for PBXProject "MovingImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B78BAEC164824AE006758EA;
+			productRefGroup = 2B78BAF8164824AE006758EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B78BAF6164824AE006758EA /* MovingImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B78BAF5164824AE006758EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B78BB02164824AE006758EA /* en.strings in Resources */,
+				2B78BB06164824AE006758EA /* main.pch in Resources */,
+				2B78BB09164824AF006758EA /* main.xib in Resources */,
+				2B78BB14164824AF006758EA /* OpenSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B78BAF3164824AE006758EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B78BB00164824AE006758EA /* AppDelegate.mm in Sources */,
+				2B78BB04164824AE006758EA /* main.m in Sources */,
+				2B78BB0C164824AF006758EA /* poOpenGLView.mm in Sources */,
+				2B78BB10164824AF006758EA /* MovingImageApp.cpp in Sources */,
+				2B78BB12164824AF006758EA /* AppConfig.cpp in Sources */,
+				2B78BB1C164991C4006758EA /* MovingImage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B78BB15164824AF006758EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B78BAFC164824AE006758EA /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2B78BB16164824AF006758EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B78BAFD164824AE006758EA /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		2B78BB18164824AF006758EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2B78BB19164824AF006758EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B78BAF1164824AE006758EA /* Build configuration list for PBXProject "MovingImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B78BB15164824AF006758EA /* Debug */,
+				2B78BB16164824AF006758EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B78BB17164824AF006758EA /* Build configuration list for PBXNativeTarget "MovingImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B78BB18164824AF006758EA /* Debug */,
+				2B78BB19164824AF006758EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B78BAEE164824AE006758EA /* Project object */;
+}
