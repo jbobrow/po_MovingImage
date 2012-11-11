@@ -68,14 +68,14 @@ void MovingImage::loadImageSequence(std::string localDir, std::string prefix)
 	
 	std::string filename;
 	
-	int idx = 0;
-	
 	for ( boost::filesystem::recursive_directory_iterator end, dir(localDir); dir != end; ++dir ) {
 		filename = dir->path().filename().string();
-		std::string url = localDir + filename;
-		frames.push_back(poGetTexture(url));
-		//printf("adding image %i named %s\n", idx, filename.c_str());
-		idx++;
+		
+		// only load files with this prefix if there is a prefix
+		if( prefix.compare("") == 0 || filename.compare(0, prefix.size(), prefix) == 0 ){
+			std::string url = localDir + filename;
+			frames.push_back(poGetTexture(url));
+		}
 	}
 	
 	reshape(frames[0]->getWidth(), frames[0]->getHeight());

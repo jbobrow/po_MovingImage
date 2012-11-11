@@ -16,7 +16,7 @@
 MovingImageApp::MovingImageApp() {
 	addModifier(new poCamera2D(poColor(.9,.9,.9)));
 	
-	sprite = new MovingImage("sprites/shifty/");
+	sprite = new MovingImage("sprites/shifty/", "PT_Shifty");
 	sprite->setFrameRate(30);
 	sprite->position.set(100,100,0);
 	addChild(sprite);
