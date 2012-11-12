@@ -10,10 +10,9 @@
  *	The image will loop by default
  *
  *	Currently uses the first texture loaded to set the size
- *	Currently loads all images in a folder
  *
  *	TODO: add sizing options
- *	TODO: use prefix to determine which images in a folder to use
+ *
  */
 
 #include "poShapeBasics2D.h"
