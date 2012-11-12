@@ -43,6 +43,8 @@ public:
 	void	setFrameRate(int rate);
 	int		getFrameRate();
 	
+	int		getNumFrames();
+	
 	void	setLoop(bool b);
 	
 	bool	isPlaying();

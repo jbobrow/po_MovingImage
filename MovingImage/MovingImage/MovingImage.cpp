@@ -169,6 +169,12 @@ void MovingImage::setLoop(bool b)
 }
 
 //--------------------------------------------------------------
+int MovingImage::getNumFrames()
+{
+	return frames.size();
+}
+
+//--------------------------------------------------------------
 bool MovingImage::isPlaying()
 {
 	return bPlaying;

@@ -30,7 +30,7 @@ MovingImageApp::MovingImageApp() {
 	control->addButton("step forward", this);
 	control->addButton("step backward", this);
 	control->addToggle("loop", this);
-	control->addSliderI("goto frame", 0, 36, this);
+	control->addSliderI("goto frame", 0, sprite->getNumFrames()-1, this);
 	
 	addChild(control);
 	
